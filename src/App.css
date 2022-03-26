@@ -9,7 +9,11 @@ body {
 /* //for the whole page */
 .wrapper {
   min-height: 100vh;
-  background: linear-gradient(to bottom, rgb(28, 16, 11), rgb(243, 243, 181));
+  background: linear-gradient(
+    to bottom,
+    rgb(253, 152, 115),
+    rgb(243, 243, 181)
+  );
 
   display: flex;
   justify-content: center;
@@ -21,7 +25,7 @@ body {
 /* calculator section */
 .mainParent {
   width: 350px;
-  background-color: rgba(247, 155, 121, 0.4);
+  background-color: rgb(250, 172, 143);
   padding: 1rem;
   border-radius: 10px;
   box-shadow: var(--boxShadow);
@@ -29,7 +33,7 @@ body {
 
 /* display section */
 .result {
-  border: 1px solid rgb(126, 114, 114);
+  border: 1px solid rgb(227, 143, 143);
   border-radius: 5px;
   padding: 1.5rem;
   font-weight: bolder;
