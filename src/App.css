@@ -9,11 +9,7 @@ body {
 /* //for the whole page */
 .wrapper {
   min-height: 100vh;
-  background: linear-gradient(
-    to bottom,
-    rgb(253, 152, 115),
-    rgb(243, 243, 181)
-  );
+  background: linear-gradient(to bottom, rgb(28, 16, 11), rgb(243, 243, 181));
 
   display: flex;
   justify-content: center;
